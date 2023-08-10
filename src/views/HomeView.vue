@@ -61,4 +61,8 @@ export default {
 .card .btn-primary {
   background-color: #002d72;
 }
+
+.card-img-top {
+  height: 200px;
+}
 </style>
