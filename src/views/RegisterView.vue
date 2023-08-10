@@ -46,6 +46,7 @@
 export default {
   data() {
     return {
+      // Register Form state tracker
       form:{
         email:"",
         password:"",
@@ -57,6 +58,7 @@ export default {
       }
     }
   },
+  // VueX used to mutate the state and register
   methods: {
     submitForm(){
       this.$store.commit('register',

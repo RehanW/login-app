@@ -6,6 +6,7 @@
 </template>
 
 <script>
+// Child that receives data from parent
 export default {
   name: 'HelloWorld',
   props: {

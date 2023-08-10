@@ -40,6 +40,7 @@
 </template>
 
 <script>
+// Using components to pass in data from parent
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {

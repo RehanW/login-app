@@ -1,5 +1,6 @@
 <template>
 <div>
+    <!--Top of the page Nav bar to get around-->
     <nav class="navbar navbar-expand-lg custom-navbar">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">Brsk</router-link>

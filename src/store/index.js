@@ -1,6 +1,7 @@
 import { createStore } from 'vuex'
 
 export default createStore({
+  // Create state trackers 
   state: {
     email: "",
     password: "",
@@ -12,6 +13,7 @@ export default createStore({
   },
   getters: {
   },
+  // Create mutations to change the state
   mutations: {
     login(state, { email, password }) {
       state.email = email;

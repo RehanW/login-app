@@ -26,12 +26,14 @@
 export default {
   data() {
     return {
+      // Login Form state tracker
       form:{
         email:"",
         password:"",
       }
     }
   },
+  // VueX used to mutate the state and login 
   methods: {
     Submit(){
       this.$store.commit('login', this.form.email, this.form.password)
